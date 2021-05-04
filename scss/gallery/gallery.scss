@@ -1,0 +1,98 @@
+.gallery-title {
+    width: 979.5px;
+    margin: 0 auto;
+    margin-top: 63.5px;
+
+    h1 {
+        font-family: gill-sans-nova, sans-serif;
+       // font-weight: 900;
+        font-style: normal;
+        font-size: 25px;
+    }
+    .gallery-line {
+        width: 229px;
+        height: 2px;
+        background-color: black;
+    }
+             
+}
+
+.gallery-images-main {
+    width: 979.5px;
+    height: 513px;
+    margin: 0 auto;
+    margin-top: 29.5px;
+    //background-color: burlywood;
+    margin-bottom: 60px;
+   
+
+    .gallery-images-1 {
+        display: flex;
+        
+        .gallery-1 {
+            display: block;
+            width: 489px;
+            height: 187px;
+            background-color: green;
+            margin-right: 20px;
+            background-image: linear-gradient(to right, rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)),
+            url(../images/gallery/1.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .gallery-2 {
+            display: block;
+            width: 187px;
+            height: 187px;
+            background-color: blue;
+            margin-right: 20px;
+            background-image: linear-gradient(to right, rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)),
+            url(../images/gallery/2.jpeg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .gallery-3 {
+            display: block;
+            width: 265px;
+            height: 187px;
+            background-color: darkmagenta;
+            background-image: linear-gradient(to right, rgba(8, 173, 105, 0.5), rgba(8, 173, 105, 0.5)),
+            url(../images/gallery/3.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    
+    .gallery-images-2 {
+        display: flex;
+        .gallery-4 {
+            display: block;
+            width: 603px;
+            height: 306px;
+            background-color: red;
+            margin-top: 20px;
+            margin-right: 20px;
+            background-image: linear-gradient(to right, rgba(84, 13, 110, 0.5), rgba(84, 13, 110, 0.5)),
+            url(../images/gallery/4.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .gallery-5 {
+            display: block;
+            width: 355px;
+            height: 306px;
+            background-color: hotpink;
+            margin-top: 20px;
+            background-image: linear-gradient(to right, rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)),
+            url(../images/gallery/5.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+}

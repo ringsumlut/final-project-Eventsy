@@ -1,0 +1,101 @@
+.contact-title {
+    width: 979.5px;
+    margin: 0 auto;
+    margin-top: 63.5px;
+
+    h1 {
+        font-family: gill-sans-nova, sans-serif;
+       // font-weight: 900;
+        font-style: normal;
+        font-size: 25px;
+       
+    }
+    .contact-line {
+        width: 229px;
+        height: 2px;
+        background-color: black;
+    }
+}
+
+.contact-all {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 65.5px;
+    display: flex ;
+    margin-bottom: 90px;
+
+    .map-image {
+            width: 400px;
+            height: 442px;
+            background-image:
+            url(../images/map.jpg);
+            background-repeat: no-repeat;
+            background-position: center ;
+            background-size: cover;
+            margin-bottom: 34px;
+            margin-left: 50px;
+}
+.contact-form {
+    display: column;
+      //margin-left: 50px;
+     
+      ::placeholder {
+          padding-left: 21px;
+      }
+      input {
+          border: 0px solid;
+      }
+      textarea {
+          border: 0px solid;
+      }
+      button {
+          border: 0px solid;
+      }
+      #name {
+          width: 529px;
+          height: 60px;
+          background-color: #F5F5F5;
+          margin-bottom: 21px;
+          font-family:  gill-sans-nova, sans-serif;
+          font-size: 16px;
+      }
+      #email {
+          width: 529px;
+          height: 60px;
+          background-color: #F5F5F5;
+          margin-bottom: 21px;
+          font-family:  gill-sans-nova, sans-serif;
+          font-size: 16px;
+          
+          
+      }
+      #company {
+          width: 529px;
+          height: 60px;
+          background-color: #F5F5F5;
+          margin-bottom: 21px;
+          font-family:  gill-sans-nova, sans-serif;
+          font-size: 16px;
+      }
+      #message {
+          width: 529px;
+          height: 199px;
+          background-color: #F5F5F5;
+          margin-bottom: 21px;
+          font-family:  gill-sans-nova, sans-serif;
+          font-size: 16px;
+          
+        
+      }
+  
+      #btn {
+          width: 168px;
+          height: 60px;
+          background-color: #EE4367;
+          margin-bottom: 20px;
+          font-family:  gill-sans-nova, sans-serif;
+          font-size: 16px;
+          color: #fff;
+      }
+}
+}

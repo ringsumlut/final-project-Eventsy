@@ -1,0 +1,205 @@
+
+.gallery-hero-1 {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    margin-top: 50.5px;
+    background-image: linear-gradient(to right, rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)),
+    url(../images/gallery/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery-hero-2 {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    margin-top: 50.5px;
+    background-image: linear-gradient(to right, rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.5)),
+    url(../images/gallery/2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-hero-3 {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    margin-top: 50.5px;
+    background-image: linear-gradient(to right, rgba(8, 173, 105, 0.5), rgba(8, 173, 105, 0.5)),
+    url(../images/gallery/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-hero-4 {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    margin-top: 50.5px;
+    background-image: linear-gradient(to right, rgba(84, 13, 110, 0.5), rgba(84, 13, 110, 0.5)),
+    url(../images/gallery/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-hero-5 {
+    width: 980.5px;
+    height: 400.5px;
+    margin: 0 auto;
+    margin-top: 50.5px;
+    background-image: linear-gradient(to right, rgba(59, 206, 171, 0.5), rgba(59, 206, 171, 0.5)),
+    url(../images/gallery/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery-div-food{
+
+    max-width: 979.5px;
+    background-color: blue;
+    margin: 0 auto;
+    position: relative;
+
+
+      h1 {
+        color: #FFD140;
+        letter-spacing: 7px;
+        font-family: gill-sans-nova, sans-serif;
+        font-size: 85px;
+        width: 979.5px;
+        height: 215px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        .num {
+            font-size: 200px;
+        }
+      }
+    }
+    .gallery-div-dj{
+
+        max-width: 979.5px;
+        background-color: blue;
+        margin: 0 auto;
+        position: relative;
+    
+    
+          h1 {
+            color: #EE4367;
+            letter-spacing: 7px;
+            font-family: gill-sans-nova, sans-serif;
+            font-size: 85px;
+            width: 979.5px;
+            height: 215px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+    
+            .num {
+                font-size: 200px;
+            }
+          }
+        }
+        .gallery-div-speech{
+
+            max-width: 979.5px;
+            background-color: blue;
+            margin: 0 auto;
+            position: relative;
+        
+        
+              h1 {
+                color: #08AD69;
+                letter-spacing: 7px;
+                font-family: gill-sans-nova, sans-serif;
+                font-size: 85px;
+                width: 979.5px;
+                height: 215px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+        
+                .num {
+                    font-size: 200px;
+                }
+              }
+            }
+            .gallery-div-open{
+
+                max-width: 979.5px;
+                background-color: blue;
+                margin: 0 auto;
+                position: relative;
+            
+            
+                  h1 {
+                    color: #540D6E;
+                    letter-spacing: 7px;
+                    font-family: gill-sans-nova, sans-serif;
+                    font-size: 85px;
+                    width: 979.5px;
+                    height: 215px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+            
+                    .num {
+                        font-size: 200px;
+                    }
+                  }
+                }
+                .gallery-div-int{
+
+                    max-width: 979.5px;
+                    background-color: blue;
+                    margin: 0 auto;
+                    position: relative;
+                
+                
+                      h1 {
+                        color: #3BCEAB;
+                        letter-spacing: 7px;
+                        font-family: gill-sans-nova, sans-serif;
+                        font-size: 85px;
+                        width: 979.5px;
+                        height: 215px;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                
+                        .num {
+                            font-size: 200px;
+                        }
+                      }
+                    }
+
+    .gallery-text {
+        width: 980.5px;
+        height: 135px;
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 50.5px;
+        margin-bottom: 70px;
+        //background-color: indigo;
+
+        .text1 {
+            width: 490px;
+            height: 135px;
+            overflow: hidden;
+            font-family: gill-sans-nova ;
+            font-size: 16px;
+        }
+        .text2 {
+            width: 451px;
+            height: 135px;
+            overflow: hidden;
+            font-family: gill-sans-nova;
+            font-size: 16px;
+            font-weight: lighter;
+            font-style: italic;
+        }
+    }

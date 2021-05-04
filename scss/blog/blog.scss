@@ -1,0 +1,90 @@
+.blog-title {
+    width: 979.5px;
+    margin: 0 auto;
+    margin-top: 63.5px;
+
+    h1 {
+        font-family: gill-sans-nova, sans-serif;
+       // font-weight: 900;
+        font-style: normal;
+        font-size: 25px;
+       
+    }
+    .blog-line {
+        width: 229px;
+        height: 2px;
+        background-color: black;
+    }
+}
+
+.blog-items {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 30.5px;
+    display: flex;
+}
+a {
+    text-decoration: none    ;
+    .blog-1 {
+        display: flex;
+        margin-bottom: 30px;
+        margin-right: 59px;
+        
+        .date {
+            width: 60px;
+            height: 60px;
+            background-color:#EE4367;
+            align-items: center;
+            display:column;
+            .day {
+                color: #fff;
+                font-size: 22px;
+                font-family: gill-sans-nova, sans-serif;
+                text-align: center;
+                
+            }
+            .month {
+                font-size: 12px;
+                color: #fff;
+                font-family: gill-sans-nova, sans-serif;
+                text-align: center;
+                
+            }
+        }
+      
+        .blog-details{
+            margin-left: 20px;
+            .blog-image {
+                width: 380px;
+                height: 140px;
+                background-image:
+                url(../images/blog.jpg);
+                background-repeat: no-repeat;
+                background-position: center ;
+                background-size: cover;
+            }
+            h2 {
+                width: 245px;
+                height: 22px;
+                margin-top: 20px;
+                font-family: gill-sans-nova, sans-serif;
+                overflow: hidden;
+                font-size: 15px;
+                color: #000;
+             
+            }
+            .blog-paragraph {
+                width: 350px;
+                height: 80px;
+                color: #EE4367;
+                font-family: gill-sans-nova, sans-serif;
+                overflow: hidden;
+                font-size: 13px;
+                font-weight: 700;
+            }
+        }
+      
+      }
+      
+      
+}

@@ -1,0 +1,114 @@
+.top-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    .quote {
+        padding-top: 77px;
+        width: 789px;
+        //background-color: rosybrown;
+        margin: 0 auto;
+        p {
+            color: #FFD140;
+            font-family: gill-sans-nova, sans-serif;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 900;
+        }
+        .writer-name {
+            color: #EE4367;
+            font-family: PTSerif;
+            font-size: 15px;
+        }
+        .company-name {
+            margin-top: 8px;
+            color: #A8A8A8;
+            font-family: PTSerif;
+            font-size: 10px;
+        }
+    }
+}
+
+.bottom-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 76px;
+    align-items: center;
+    background-color: #540D6E;
+    padding-top: 48px;
+    h1 {
+        color: #fff;
+        letter-spacing: 7px;
+        font-family:Gil;
+        margin-left: 40px;
+    
+      }
+      .event-line {
+        background-color: #fff;
+        width: 392px;
+        height: 2px;
+        margin-bottom: 35.5px;
+        margin-left: 40px;
+      }
+
+      .all-events {
+          display:inline-flex;
+     
+      .event-1 {
+        display: flex;
+        margin-bottom: 100px;
+
+        .date {
+            background-color: #EE4367;
+            width: 60px;
+            height: 60px;
+            margin-left: 40px;
+
+            .day {
+                color: #fff;
+                font-family: gill-sans-nova, sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 22px;
+                text-align: center;
+            }
+            .month {
+                color: #fff;
+                font-family: gill-sans-nova, sans-serif;
+                font-weight: lighter;
+                font-style: normal;
+                font-size: 12px;
+                text-align: center;
+            }
+        }
+        .event-details {
+            width: 140px;
+            height: 124px;
+
+            h2 {
+                width: 140px;
+                height: 41px;
+                color: #fff;
+                overflow: hidden;
+                font-family: gill-sans-nova, sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 15px;
+                margin-left: 20px;
+                line-height: 1.5;
+                
+            }
+            p {
+                width: 140px;
+                height: 78px;
+                color: #EE4367;
+                overflow: hidden;
+                font-family: gill-sans-nova, sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 13px;
+                margin-left: 20px;
+                line-height: 1.5;
+            }
+        }
+      }
+    }
+}

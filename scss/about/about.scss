@@ -1,0 +1,63 @@
+
+
+  .about-hero {
+    max-width: 979.5px;
+    height: 378.75px;
+    margin: 0 auto;
+    margin-top: 85.5px;
+    position: relative;
+    background-image: linear-gradient(to right, rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.7)),
+      url(../images/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    //padding-top: 20px;
+    color: white;
+  
+     
+}
+.line-div{
+
+    max-width: 979.5px;
+    background-color: blue;
+    margin: 0 auto;
+    position: relative;
+
+      h1 {
+        color: #000;
+        font-family: gill-sans-nova, sans-serif;
+        font-size: 25px;
+        width: 392px;
+        height: 13px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .history-line {
+        width: 229px;
+        height: 2px;
+        background-color: #000;
+        margin: 0 auto;
+        margin-top: 10.5px;
+        margin-left: 2px;
+        position: absolute;
+        
+      }
+   
+}
+.about-text {
+    width: 980px;
+    height: 96px;
+    margin: 0 auto;
+    margin-top: 36.5px;
+    overflow: hidden;
+    margin-bottom: 95px;
+
+    p{
+        font-family: gill-sans-nova, sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: lighter;
+        //letter-spacing: 1px;
+    }
+}
